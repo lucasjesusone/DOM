@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Seletores para Forms</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <form>
+        <p><label><strong>Nome: </strong></label>
+            <input type="text" name="name">
+        </p>
+
+        <p>
+            <label><strong>Cor Primária: </strong></label>
+            <select name="color">
+                <option value="yellow"><strong>Amarelo</strong></option>
+                <option value="Red"><strong>Vermelho</strong></option>
+                <option value="Grey"><strong>Cinza</strong></option>
+                <option value="Pink"><strong>Rosa</strong></option>
+                <option value="Blue"><strong>Azul</strong></option>
+            </select>
+        </p>
+
+        <p>
+            <label><strong>Gosta de Programar? </strong></label>
+            <input type="radio" value="Sim" name="like-programming">
+            <strong>Sim</strong>
+
+            <input type="radio" value="Não" name="like-programming">
+            <Strong>Não</Strong>
+        </p>
+
+        <p>
+            <label><strong>Conhecimentos em Programação: </strong> </label>
+            <input type="checkbox" value="HTML" name="developer-options"><strong>HTML</strong>
+            <input type="checkbox" value="CSS" name="developer-options"><strong>CSS</strong>
+            <input type="checkbox" value="JS" name="developer-options"><strong>JavaScript</strong>
+            <input type="checkbox" value="Python" name="developer-options"><strong>Python</strong>
+            <input type="checkbox" value="Ruby" name="developer-options"><strong>Ruby</strong>
+        </p>
+
+        <button type="button" onclick="showInfo()"><strong>Mostrar Todas Informações do Usuário</strong></button>
+    </form>
+</body>
+
+</html>
