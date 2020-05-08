@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="events.js"></script>
+</head>
+
+<body>
+    <h1>Some events</h1>
+    <p>
+        <button onclick="clickMe()"> Clique me</button>
+    </p>
+
+    <p>
+        <strong>Focado</strong>
+        <input type="text" name="Focado" onfocus="focusMe()">
+    </p>
+    <p>
+        <strong>Desfocado</strong>
+        <input type="text" name="Desfocado" onblur="blurMe()">
+    </p>
+    <p>
+        <strong>Alterado</strong>
+        <input type="text" name="Alterado" onchange="changeMe()">
+    </p>
+
+    <p onmouseover="overMe()"><strong>Passe o mouse aqui</strong> </p>
+</body>
+
+</html>
